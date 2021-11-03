@@ -7,7 +7,7 @@ pubmed = PubMed(tool="MyTool", email="my@email.address")
 query = 'tetr regulator'
 
 # Execute query
-results = pubmed.query(query, max_results=100)
+results = pubmed.query(query, max_results=10)
 
 # For each article that is retrieved from pubmed searches
 for article in results:
@@ -23,4 +23,7 @@ for article in results:
 
     # Print and formatinfo about the article
     print("Article DOI" + str(article_doi) + "\n" + "Title: " + title + "\n")
+    print(type(article))
+
+    #All pubmed articles are automatically covereted to XML files to be parsed 
 
