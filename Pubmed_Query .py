@@ -23,4 +23,7 @@ for article in results:
 
     # Print and formatinfo about the article
     print("Article DOI" + str(article_doi) + "\n" + "Title: " + title + "\n")
+    print(type(article))
+
+    #All pubmed articles are automatically covereted to XML files to be parsed 
 
