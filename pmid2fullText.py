@@ -46,4 +46,5 @@ for t in text:
     if t.parent.name not in blacklist:
         output += '{} '.format(t)
 
-print(output)
+with open ("cache/"+pubmed_ID+"_cached_fullText.txt", mode="w+") as f:
+    f.write(output)
