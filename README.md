@@ -19,7 +19,7 @@ The goal of this repository is to extract experimental data on protein interacti
 - pathlib
 
 ## Notes
-This is a collaborative project between Lakshmi, of LASA, and Simon d'Oelsnitz, a Research Scientist at the University of Texas at Austin. Information retrieved from this pipeline will be manually validated and used to populate [The Biosensor Database](https://gbiosensors.com)
+This is a collaborative project between Lakshmi Surada, of LASA, and Simon d'Oelsnitz, a Research Scientist at the University of Texas at Austin. Information retrieved from this pipeline will be manually validated and used to populate [The Biosensor Database](https://gbiosensors.com)
 
 ## License
 Work in the `src` directory is licensed under the MIT License, found in the LICENSE.txt file
